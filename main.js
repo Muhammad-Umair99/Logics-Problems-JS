@@ -87,3 +87,112 @@
 // }
 // let res = sumFUnction(4,5);
 // console.log(res)
+
+
+
+
+// Q6
+//Count Vowels in a String
+// Write a function countVowels(str) that takes a string and returns the number of
+// vowels (a, e, i, o, u) in it.
+
+//1)
+// function countVowels(str) {
+//     // Convert the string to lowercase to handle both uppercase and lowercase vowels
+//     str = str.toLowerCase();
+  
+//     // Define a string containing all vowels
+//     const vowels = 'aeiou';
+  
+//     // Initialize a counter for the number of vowels
+//     let count = 0;
+  
+//     // Iterate over each character in the string
+//     for (let char of str) {
+//       // Check if the character is a vowel
+//       if (vowels.includes(char)) {
+//         count++;
+//       }
+//     }
+  
+//     // Return the total count of vowels
+//     return count;
+//   }
+  
+//   // Example usage:
+//   console.log(countVowels("Hello World")); // Output: 3
+//   console.log(countVowels("JavaScript")); // Output: 3
+//   console.log(countVowels("OpenAI")); // Output: 3
+  
+//2)
+// let vowels = (str)=>{
+//     str = str.toLowerCase();
+
+//     const vowels = "aeiou"
+
+//     let count = 0;
+
+//     for(let char of str){
+//        if(vowels.includes(char))
+//            count++;
+   
+//     }
+//     return count;
+
+// }
+// console.log(vowels("muhammadumair"));
+
+//  1) if (vowels.includes(char)): Here’s where we check if each character is a vowel:
+//  2)vowels is the string 'aeiou'.
+//  3).includes(char) is a method that checks if the string 'aeiou' contains the character char.
+
+
+
+
+
+//Q7)
+//Remove Duplicates from an Array
+// Write a function removeDuplicates(arr) that takes an array and returns a new array
+// with duplicates removed.
+
+
+// let removeDuplicates = (arr) =>{
+//     arr = [... new Set(arr)]
+//     return arr;
+// }
+// let res = removeDuplicates(["umair","ishaq","hassan","hassan","ishaq","umair","Muhammad"])
+// console.log(res);
+
+
+
+//Q8)
+// Sum of Array Elements
+// Write a function sumArray(arr) that takes an array of numbers and returns the sum
+// of all the elements.
+
+// let sumArray = (arr) =>{
+//     let sum = 0
+//     for(let char of arr){
+//         sum += char
+    
+//     }
+//     return sum
+// }
+
+// let res = sumArray([1,2,3,4,]);
+// console.log(res);
+
+
+
+// Q9)
+// Convert Celsius to Fahrenheit
+// Write a function celsiusToFahrenheit(c) that converts Celsius to Fahrenheit using the
+// formula F = C * 9/5 + 32.
+
+// let celsiusToFahrenheit = (C)=>{
+//     F = C * 9/5 + 32.
+//     return F
+// }
+
+// let res = celsiusToFahrenheit(5);
+// console.log(res);
